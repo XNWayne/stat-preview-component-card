@@ -1,0 +1,145 @@
+
+.attribution { font-size: 11px; text-align: center; padding: 0 0 20px 0;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    background-color: hsl(233, 47%, 7%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+    text-align:center; 
+    letter-spacing: 1px;
+}
+
+/* == 
+Images
+== */
+.container{
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 6px;
+    margin: 50px 10px;
+}
+
+.pic{
+    position: relative;
+}
+
+.image{
+    width: 100%;
+    height: 350px;
+    border-radius: 6px 6px 0 0;
+}
+
+.overlay{
+    position: absolute;
+    height: 350px;
+    background-color: hsla(277, 64%, 61%, 0.5);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-radius: 6px 6px 0 0;
+}
+
+/* ==
+Text
+== */
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+li{
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+li span{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+}
+
+.insights{
+    color: hsl(277, 64%, 61%);
+}
+
+.para{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.span{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 11px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.stats-1, .stats-2, .stats-3{
+    font-weight: 700 ;
+}
+section{
+    padding: 20px;
+}
+
+.paragraphs{
+    padding-top: 10px;
+}
+
+.stats-2, .stats-3{
+    margin-top: 10px;
+}
+
+
+@media (min-width:550px) {
+    .container{
+        height: 350px;
+        width: 950px;
+        margin: 140px auto;
+    }
+    .image{
+        border-radius: 0 6px 6px 0;
+        height: 350px;
+    }
+    .overlay{
+        border-radius: 0 6px 6px 0;
+        height: 350px;
+    }
+    section{
+        text-align: left;
+        width: 400px;
+    }
+    .pic{
+        float: right;
+    }
+    .span{
+        display: flex;
+    }
+    section{
+        padding: 50px 50px;
+    }
+      .attribution{
+       /* margin-left: 500px; */
+       /* margin-right: 500px; */
+       margin-top: -110px;
+    }  
+    ul{
+        display: flex;
+        margin-top: 40px;
+    }
+    li{
+        font-size: 10px;
+    }
+    li span{
+        font-size: 18px;
+    }
+    .list{
+        margin-left: 30px;
+    }
+} 
